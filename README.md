@@ -42,4 +42,14 @@ Si ya terminaste o son las 10:00 asegurate de seguir los siguientes pasos para l
 
 ## Listado de endpoint
 
--GET /api/movies?pageSize=[pageSize]&page=[page]
+-GET /api/sales/?pageSize=[pageSize]&page=[page]
+//1
+-GET /api/sales/:id
+//2
+-GET /api/sales/total
+//3
+-GET /api/sales/customer/:email
+//4
+-POST /api/sales/customer/updateCoupon/:id
+//5
+-GET /api/sales/top-products
